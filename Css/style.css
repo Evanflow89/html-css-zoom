@@ -1,0 +1,35 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*TEXT*/
+.shield {
+    color: #67d669;
+}
+
+.view {
+    color: white;
+}
+
+/*BUTTONS*/
+.recording {
+    background-color: #111111;
+    color: white;
+    cursor: pointer;
+}
+
+/*COMMONS*/
+
+header {
+    display: flex;
+    height: 25px;
+    background-color: #111111;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
