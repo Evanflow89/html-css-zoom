@@ -20,10 +20,26 @@
     color: white;
 }
 
+footer ul li a {
+    color: #a8a8a8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 /*BUTTONS*/
 .recording {
     background-color: #111111;
     color: white;
+    cursor: pointer;
+}
+
+.btn-red {
+    color: white;
+    background-color: #a8352e;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -44,7 +60,7 @@ main {
 
 .container {
     width: 1260px;
-    height: 100vh;
+    height: calc(100vh - 75px);
     margin: auto;
     display: flex;
     justify-content: center;
@@ -75,10 +91,13 @@ main {
 
 footer {
     height: 50px;
+    color: #a8a8a8;
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* background-color: #1b1b1b; */
+    align-items: center;
+    background-color: #1b1b1b;
+    padding: 0 10px;
 }
 
 .nav-left ul li,
