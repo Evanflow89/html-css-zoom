@@ -59,8 +59,8 @@ main {
 }
 
 .container {
-    width: 1260px;
-    height: calc(100vh - 75px);
+    max-width: 1260px;
+    max-height: calc(100vh - 75px);
     margin: auto;
     display: flex;
     justify-content: center;
