@@ -15,6 +15,11 @@
     color: white;
 }
 
+
+.User {
+    color: white;
+}
+
 /*BUTTONS*/
 .recording {
     background-color: #111111;
@@ -33,3 +38,35 @@ header {
     padding: 0 10px;
 }
 
+main {
+    background-color: black;
+}
+
+.container {
+    width: 1260px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 200px;
+    height: 120px;
+    background-image: url("https://picsum.photos/200/120");
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.name {
+    background-color: #384146;
+    color: #cc3c33;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+}
