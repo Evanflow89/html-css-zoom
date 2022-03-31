@@ -48,6 +48,9 @@ main {
     margin: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
 }
 
 .card {
@@ -55,11 +58,9 @@ main {
     height: 120px;
     background-image: url("https://picsum.photos/200/120");
     position: relative;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
+    border-radius: 5px;
     justify-content: flex-start;
-    gap: 5px;
+
 }
 
 .name {
